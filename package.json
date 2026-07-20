@@ -1,0 +1,16 @@
+{
+  "name": "quince-invitacion",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Invitación de XV años + API de confirmaciones (Vercel Functions)",
+  "engines": {
+    "node": ">=18"
+  },
+  "scripts": {
+    "dev": "vercel dev",
+    "deploy": "vercel --prod"
+  },
+  "devDependencies": {
+    "vercel": "^37.0.0"
+  }
+}

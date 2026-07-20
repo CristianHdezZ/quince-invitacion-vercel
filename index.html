@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Mis XV Años · Valentina</title>
+<meta name="description" content="Invitación digital a mis XV años">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400&family=Alex+Brush&family=Jost:wght@300;400;500;600&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body class="gate-active">
+
+<!-- ===================== PORTADA / SOBRE ===================== -->
+<div class="gate" id="gate">
+  <svg class="garland garland--top" viewBox="0 0 500 140" aria-hidden="true">
+    <g class="rose" transform="translate(60,20)"><circle r="26" class="rose__c1"/><circle r="17" cx="-6" cy="4" class="rose__c2"/><circle r="12" cx="8" cy="-6" class="rose__c3"/></g>
+    <g class="rose" transform="translate(150,-10) scale(0.8)"><circle r="26" class="rose__c1"/><circle r="17" cx="-6" cy="4" class="rose__c2"/><circle r="12" cx="8" cy="-6" class="rose__c3"/></g>
+    <g class="rose" transform="translate(350,15) scale(0.9)"><circle r="26" class="rose__c1"/><circle r="17" cx="-6" cy="4" class="rose__c2"/><circle r="12" cx="8" cy="-6" class="rose__c3"/></g>
+    <g class="rose" transform="translate(440,25) scale(0.7)"><circle r="26" class="rose__c1"/><circle r="17" cx="-6" cy="4" class="rose__c2"/><circle r="12" cx="8" cy="-6" class="rose__c3"/></g>
+    <path d="M0,30 Q120,70 250,35 T500,30" class="garland__vine"/>
+    <ellipse cx="110" cy="45" rx="14" ry="6" class="leaf" transform="rotate(20 110 45)"/>
+    <ellipse cx="260" cy="50" rx="14" ry="6" class="leaf" transform="rotate(-15 260 50)"/>
+    <ellipse cx="400" cy="42" rx="14" ry="6" class="leaf" transform="rotate(30 400 42)"/>
+  </svg>
+
+  <svg class="butterfly butterfly--1" viewBox="0 0 60 40" aria-hidden="true"><g class="butterfly__wings"><path d="M28,20 C10,0 0,5 4,20 C0,35 10,40 28,20Z" class="wing wing--l"/><path d="M32,20 C50,0 60,5 56,20 C60,35 50,40 32,20Z" class="wing wing--r"/></g><line x1="30" y1="8" x2="30" y2="32" class="butterfly__body"/></svg>
+  <svg class="butterfly butterfly--2" viewBox="0 0 60 40" aria-hidden="true"><g class="butterfly__wings"><path d="M28,20 C10,0 0,5 4,20 C0,35 10,40 28,20Z" class="wing wing--l"/><path d="M32,20 C50,0 60,5 56,20 C60,35 50,40 32,20Z" class="wing wing--r"/></g><line x1="30" y1="8" x2="30" y2="32" class="butterfly__body"/></svg>
+
+  <div class="gate__content">
+    <p class="gate__eyebrow">Con la bendición de Dios y mi familia</p>
+    <h1 class="gate__name">Valentina</h1>
+    <p class="gate__xv">XV AÑOS</p>
+    <p class="gate__quote">
+      Hay momentos inolvidables que se atesoran en el corazón para siempre.
+      Me siento muy feliz de llegar a este momento de mi vida y quiero
+      compartirlo contigo.
+    </p>
+    <button class="gate__btn" id="gateBtn" type="button">Abrir invitación</button>
+  </div>
+
+  <svg class="gate__dress" viewBox="0 0 220 260" aria-hidden="true">
+    <ellipse cx="110" cy="250" rx="95" ry="10" class="dress__shadow"/>
+    <path d="M110,10 C118,10 124,20 122,32 L112,70 C155,90 185,150 195,235
+      C160,250 60,250 25,235 C35,150 65,90 108,70 L98,32 C96,20 102,10,110,10 Z" class="dress__body"/>
+    <circle cx="60" cy="150" r="3" class="dress__sparkle"/>
+    <circle cx="150" cy="170" r="2.5" class="dress__sparkle"/>
+    <circle cx="90" cy="210" r="2" class="dress__sparkle"/>
+    <circle cx="140" cy="120" r="2" class="dress__sparkle"/>
+  </svg>
+
+  <svg class="garland garland--bottom" viewBox="0 0 500 140" aria-hidden="true">
+    <g class="rose" transform="translate(70,110) scale(0.8)"><circle r="26" class="rose__c1"/><circle r="17" cx="-6" cy="4" class="rose__c2"/><circle r="12" cx="8" cy="-6" class="rose__c3"/></g>
+    <g class="rose" transform="translate(420,105) scale(0.9)"><circle r="26" class="rose__c1"/><circle r="17" cx="-6" cy="4" class="rose__c2"/><circle r="12" cx="8" cy="-6" class="rose__c3"/></g>
+    <path d="M0,100 Q150,60 250,95 T500,100" class="garland__vine"/>
+  </svg>
+</div>
+
+<!-- ===================== ENREDADERA GUÍA (firma visual) ===================== -->
+<svg class="vine-track" viewBox="0 0 60 3000" preserveAspectRatio="none" aria-hidden="true">
+  <path id="vinePath" d="M30,0 C10,150 50,300 30,450 C10,600 50,750 30,900
+    C10,1050 50,1200 30,1350 C10,1500 50,1650 30,1800
+    C10,1950 50,2100 30,2250 C10,2400 50,2550 30,2700
+    C10,2850 50,2950 30,3000" />
+</svg>
+
+<!-- ===================== BOTÓN DE MÚSICA ===================== -->
+<audio id="bgMusic" loop preload="none">
+  <source src="assets/music/cancion.mp3" type="audio/mpeg">
+</audio>
+<button id="musicToggle" class="music-toggle" aria-label="Reproducir música" aria-pressed="false">
+  <span class="music-icon"><span class="bar"></span><span class="bar"></span><span class="bar"></span></span>
+</button>
+
+<!-- ===================== NAV DE PROGRESO ===================== -->
+<nav class="dot-nav" aria-label="Navegación de secciones">
+  <a href="#hero" data-label="Inicio"></a>
+  <a href="#carta" data-label="Carta"></a>
+  <a href="#cuenta" data-label="Cuenta regresiva"></a>
+  <a href="#itinerario" data-label="Itinerario"></a>
+  <a href="#vestimenta" data-label="Vestimenta"></a>
+  <a href="#detalles" data-label="Ubicación"></a>
+  <a href="#galeria" data-label="Galería"></a>
+  <a href="#video" data-label="Video"></a>
+  <a href="#rsvp" data-label="Confirmar"></a>
+</nav>
+
+<!-- ===================== BIENVENIDA / FOTO ===================== -->
+<header id="hero" class="hero">
+  <p class="hero__eyebrow reveal">Tenemos el honor de invitarlos a la celebración de los XV años de nuestra hija</p>
+
+  <div class="hero__frame reveal">
+    <img src="assets/gallery/foto1.jpg" alt="Retrato de Valentina">
+  </div>
+
+  <h1 class="hero__name reveal">Valentina</h1>
+  <p class="hero__subtitle reveal">Que se llevará a cabo el día</p>
+
+  <div class="hero__badge reveal">
+    <span>Sábado</span>
+    <strong>15</strong>
+    <span>Noviembre</span>
+  </div>
+  <p class="hero__year reveal">2026</p>
+
+  <p class="hero__padrinos-label reveal">Padrinos de honor</p>
+  <p class="hero__padrinos reveal">Jorge Luis y Brenda</p>
+
+  <a href="#carta" class="scroll-cue" aria-label="Bajar"><span></span></a>
+</header>
+
+<main>
+
+  <!-- ===================== CARTA / MENSAJE PERSONALIZADO ===================== -->
+  <section id="carta" class="section carta">
+    <div class="section__inner reveal">
+      <span class="section__eyebrow">Mensaje para ti</span>
+      <p class="carta__texto">
+        Hoy quiero compartir contigo uno de los días más felices de mi vida.
+        Quince años de historias, de risas y de aprender a florecer, y quiero
+        que estés ahí para verlo con tus propios ojos. Esta invitación es un
+        pedacito de mi corazón, hecha con la misma ilusión con la que espero
+        abrazarte ese día.
+      </p>
+      <p class="carta__firma">Con cariño, Valentina</p>
+    </div>
+  </section>
+
+  <!-- ===================== CUENTA REGRESIVA ===================== -->
+  <section id="cuenta" class="section cuenta">
+    <div class="section__inner reveal">
+      <span class="section__eyebrow">Falta poco</span>
+      <h2 class="section__title">La cuenta regresiva ya empezó</h2>
+      <div id="countdown" class="countdown" data-date="2026-11-15T18:00:00">
+        <div class="countdown__item"><span class="countdown__num" id="cd-days">00</span><span class="countdown__label">Días</span></div>
+        <div class="countdown__item"><span class="countdown__num" id="cd-hours">00</span><span class="countdown__label">Horas</span></div>
+        <div class="countdown__item"><span class="countdown__num" id="cd-mins">00</span><span class="countdown__label">Min</span></div>
+        <div class="countdown__item"><span class="countdown__num" id="cd-secs">00</span><span class="countdown__label">Seg</span></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== ITINERARIO ===================== -->
+  <section id="itinerario" class="section itinerario">
+    <div class="section__inner reveal">
+      <span class="section__eyebrow">Programa</span>
+      <h2 class="section__title">Itinerario</h2>
+
+      <ul class="timeline">
+        <li class="timeline__item">
+          <span class="timeline__icon" aria-hidden="true">
+            <svg viewBox="0 0 40 40"><path d="M10,8 H30 L20,22 Z" class="tl-stroke"/><line x1="20" y1="22" x2="20" y2="32" class="tl-stroke"/><line x1="12" y1="32" x2="28" y2="32" class="tl-stroke"/></svg>
+          </span>
+          <span class="timeline__text"><strong>Recepción</strong><em>7:00 p.m.</em></span>
+        </li>
+        <li class="timeline__item">
+          <span class="timeline__icon" aria-hidden="true">
+            <svg viewBox="0 0 40 40"><path d="M12,6 L15,20 A5,5 0 0 0 25,20 L28,6" class="tl-stroke"/><line x1="20" y1="20" x2="20" y2="30" class="tl-stroke"/><line x1="14" y1="34" x2="26" y2="34" class="tl-stroke"/><line x1="20" y1="30" x2="20" y2="34" class="tl-stroke"/></svg>
+          </span>
+          <span class="timeline__text"><strong>Ceremonia</strong><em>7:30 p.m.</em></span>
+        </li>
+        <li class="timeline__item">
+          <span class="timeline__icon" aria-hidden="true">
+            <svg viewBox="0 0 40 40"><circle cx="15" cy="12" r="4" class="tl-stroke"/><circle cx="25" cy="12" r="4" class="tl-stroke"/><path d="M15,16 C10,20 10,28 14,33" class="tl-stroke"/><path d="M25,16 C30,20 30,28 26,33" class="tl-stroke"/></svg>
+          </span>
+          <span class="timeline__text"><strong>Vals</strong><em>8:00 p.m.</em></span>
+        </li>
+        <li class="timeline__item">
+          <span class="timeline__icon" aria-hidden="true">
+            <svg viewBox="0 0 40 40"><circle cx="20" cy="20" r="12" class="tl-stroke"/><circle cx="20" cy="20" r="5" class="tl-stroke"/></svg>
+          </span>
+          <span class="timeline__text"><strong>Cena</strong><em>9:00 p.m.</em></span>
+        </li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- ===================== VESTIMENTA ===================== -->
+  <section id="vestimenta" class="section vestimenta">
+    <div class="section__inner reveal">
+      <span class="section__eyebrow">Código de vestimenta</span>
+      <h2 class="section__title">Vestimenta formal</h2>
+      <div class="vestimenta__icons">
+        <svg viewBox="0 0 60 80" aria-hidden="true"><path d="M30,4 C34,4 36,8 34,12 L26,12 C24,8 26,4 30,4Z" class="vt-fill"/><path d="M26,12 L14,26 L20,30 L22,20 L22,76 L38,76 L38,20 L40,30 L46,26 L34,12Z" class="vt-fill"/></svg>
+        <svg viewBox="0 0 60 80" aria-hidden="true"><path d="M18,10 L30,20 L42,10 L46,18 L36,26 L36,76 L24,76 L24,26 L14,18Z" class="vt-fill"/><path d="M26,14 L30,20 L34,14 L32,10 L28,10Z" class="vt-fill vt-bow"/></svg>
+      </div>
+      <p class="vestimenta__nota">Color a evitar: rosa palo — ¡es el mío! 🌹</p>
+    </div>
+  </section>
+
+  <!-- ===================== DETALLES / MAPA ===================== -->
+  <section id="detalles" class="section detalles">
+    <div class="section__inner reveal">
+      <span class="section__eyebrow">Ubicación</span>
+      <h2 class="section__title">Dónde y cuándo</h2>
+
+      <div class="detalles__grid">
+        <article class="detalle-card">
+          <h3>Ceremonia religiosa</h3>
+          <p class="detalle-card__hora">7:30 p.m.</p>
+          <p>Parroquia Nuestra Señora del Rosario<br>Calle 10 # 45 - 20, Medellín</p>
+          <div class="mapa-wrap">
+            <iframe title="Mapa Parroquia Nuestra Señora del Rosario" src="https://www.google.com/maps?q=Parroquia+Nuestra+Se%C3%B1ora+del+Rosario+Medell%C3%ADn&output=embed" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+          </div>
+          <a class="btn-link" href="https://www.google.com/maps?q=Parroquia+Nuestra+Se%C3%B1ora+del+Rosario+Medell%C3%ADn" target="_blank" rel="noopener">Cómo llegar →</a>
+        </article>
+
+        <article class="detalle-card">
+          <h3>Recepción</h3>
+          <p class="detalle-card__hora">7:00 p.m.</p>
+          <p>Salón de Eventos Jardín Botánico<br>Carrera 52 # 73 - 30, Medellín</p>
+          <div class="mapa-wrap">
+            <iframe title="Mapa Salón de Eventos" src="https://www.google.com/maps?q=Jard%C3%ADn+Bot%C3%A1nico+Medell%C3%ADn&output=embed" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+          </div>
+          <a class="btn-link" href="https://www.google.com/maps?q=Jard%C3%ADn+Bot%C3%A1nico+Medell%C3%ADn" target="_blank" rel="noopener">Cómo llegar →</a>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== GALERÍA ===================== -->
+  <section id="galeria" class="section galeria">
+    <div class="section__inner reveal">
+      <span class="section__eyebrow">Recuerdos</span>
+      <h2 class="section__title">Galería de fotos</h2>
+      <div class="galeria__grid" id="galeriaGrid">
+        <button class="galeria__item" data-full="assets/gallery/foto1.jpg"><img src="assets/gallery/foto1.jpg" alt="Foto 1" loading="lazy"></button>
+        <button class="galeria__item" data-full="assets/gallery/foto2.jpg"><img src="assets/gallery/foto2.jpg" alt="Foto 2" loading="lazy"></button>
+        <button class="galeria__item" data-full="assets/gallery/foto3.jpg"><img src="assets/gallery/foto3.jpg" alt="Foto 3" loading="lazy"></button>
+        <button class="galeria__item" data-full="assets/gallery/foto4.jpg"><img src="assets/gallery/foto4.jpg" alt="Foto 4" loading="lazy"></button>
+        <button class="galeria__item" data-full="assets/gallery/foto5.jpg"><img src="assets/gallery/foto5.jpg" alt="Foto 5" loading="lazy"></button>
+        <button class="galeria__item" data-full="assets/gallery/foto6.jpg"><img src="assets/gallery/foto6.jpg" alt="Foto 6" loading="lazy"></button>
+      </div>
+    </div>
+  </section>
+
+  <div class="lightbox" id="lightbox" aria-hidden="true">
+    <button class="lightbox__close" id="lightboxClose" aria-label="Cerrar">&times;</button>
+    <img src="" alt="" id="lightboxImg">
+  </div>
+
+  <!-- ===================== VIDEO ===================== -->
+  <section id="video" class="section video-section">
+    <div class="section__inner reveal">
+      <span class="section__eyebrow">Un momento en movimiento</span>
+      <h2 class="section__title">Mi video de invitación</h2>
+      <div class="video-wrap">
+        <iframe src="https://www.youtube.com/embed/VIDEO_ID" title="Video de invitación" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== RSVP ===================== -->
+  <section id="rsvp" class="section rsvp">
+    <div class="section__inner reveal">
+      <span class="section__eyebrow">Confirma tu lugar</span>
+      <h2 class="section__title">¿Nos acompañas?</h2>
+      <p class="rsvp__sub">Por favor confirma tu asistencia antes del 1 de noviembre.</p>
+
+      <form id="rsvpForm" class="rsvp-form" data-endpoint="/api/rsvp">
+        <div class="field">
+          <label for="nombre">Nombre completo</label>
+          <input type="text" id="nombre" name="nombre" required autocomplete="name">
+        </div>
+        <div class="field">
+          <label for="acompanantes">Número de acompañantes</label>
+          <input type="number" id="acompanantes" name="acompanantes" min="0" max="6" value="0" required>
+        </div>
+        <fieldset class="field field--radios">
+          <legend>¿Asistirás?</legend>
+          <label class="radio"><input type="radio" name="asistencia" value="si" required> Sí, ahí estaré 💕</label>
+          <label class="radio"><input type="radio" name="asistencia" value="no" required> No podré asistir</label>
+        </fieldset>
+        <div class="field">
+          <label for="mensaje">Déjame un mensaje (opcional)</label>
+          <textarea id="mensaje" name="mensaje" rows="3"></textarea>
+        </div>
+
+        <!-- Honeypot anti-spam: campo oculto que un humano nunca llena -->
+        <input type="text" name="_gotcha" class="hp-field" tabindex="-1" autocomplete="off" aria-hidden="true">
+
+        <button type="submit" class="btn-primary" id="rsvpSubmit">Enviar confirmación</button>
+        <p class="rsvp-form__status" id="rsvpStatus" role="status" aria-live="polite"></p>
+      </form>
+    </div>
+  </section>
+
+</main>
+
+<footer class="footer">
+  <p class="footer__ornament" aria-hidden="true">✦</p>
+  <p>Gracias por ser parte de este capítulo</p>
+  <p class="footer__hashtag">#ValeXV2026</p>
+</footer>
+
+<script src="js/script.js"></script>
+</body>
+</html>
