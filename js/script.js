@@ -180,6 +180,7 @@ document.addEventListener('DOMContentLoaded', () => {
     const asistenciaInput = rsvpForm.querySelector('input[name="asistencia"]:checked');
     const data = {
       nombre: rsvpForm.nombre.value.trim(),
+      telefono: rsvpForm.telefono.value.trim(),
       acompanantes: rsvpForm.acompanantes.value,
       asistencia: asistenciaInput ? asistenciaInput.value : '',
       mensaje: rsvpForm.mensaje.value.trim(),
@@ -225,6 +226,8 @@ document.addEventListener('DOMContentLoaded', () => {
           'ok'
         );
         rsvpForm.reset();
+      } else if (response.status === 409){
+        setStatus('Ya existe una confirmación registrada con este número de teléfono. Si crees que es un error, escríbenos directamente.', 'error');
       } else {
         setStatus('No pudimos enviar tu confirmación. Inténtalo de nuevo en un momento.', 'error');
       }

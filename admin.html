@@ -118,8 +118,8 @@
     const rows = list.map(r => `
       <tr>
         <td>${escapeHtml(r.nombre)}</td>
+        <td>${escapeHtml(r.telefono || '—')}</td>
         <td><span class="pill ${r.asistencia}">${r.asistencia === 'si' ? 'Asiste' : 'No asiste'}</span></td>
-        <td>${r.acompanantes ?? 0}</td>
         <td>${escapeHtml(r.mensaje || '—')}</td>
         <td>${fmtDate(r.creado)}</td>
       </tr>
@@ -127,7 +127,7 @@
 
     tableWrap.innerHTML = `
       <table>
-        <thead><tr><th>Nombre</th><th>Asistencia</th><th>Acompañantes</th><th>Mensaje</th><th>Fecha</th></tr></thead>
+        <thead><tr><th>Nombre</th><th>Teléfono</th><th>Asistencia</th><th>Mensaje</th><th>Fecha</th></tr></thead>
         <tbody>${rows}</tbody>
       </table>
     `;

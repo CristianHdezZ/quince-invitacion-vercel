@@ -9,7 +9,7 @@ module.exports = async (req, res) => {
   }
 
   const list = await listRsvps();
-  const header = ['nombre', 'asistencia', 'acompanantes', 'mensaje', 'creado'];
+  const header = ['nombre', 'telefono', 'asistencia', 'mensaje', 'creado'];
   const rows = list.map((r) =>
     header.map((h) => `"${String(r[h] ?? '').replace(/"/g, '""')}"`).join(',')
   );
