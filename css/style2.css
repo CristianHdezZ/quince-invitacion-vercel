@@ -184,7 +184,6 @@ img{ max-width:100%; display:block; }
 }
 .hero__frame img{ width:100%; height:100%; object-fit:cover; }
 .hero__name{ font-family:var(--f-script); font-size:clamp(2.6rem, 8vw, 3.8rem); color:var(--rosa-deep); }
-.hero__apellido{ font-family:var(--f-display); font-style:italic; font-size:clamp(1.1rem, 3vw, 1.5rem); color:var(--vino); letter-spacing:.06em; margin-top:2px; }
 .hero__subtitle{ font-size:.85rem; color:var(--tinta-suave); margin:6px 0 18px; letter-spacing:.04em; }
 .hero__badge{
   display:flex; align-items:center; gap:14px;
@@ -246,7 +245,6 @@ img{ max-width:100%; display:block; }
 
 /* DETALLES */
 .detalles__grid{ display:grid; grid-template-columns:1fr 1fr; gap:34px; margin-top:40px; text-align:left; }
-.detalles__grid--single{ grid-template-columns:1fr; max-width:420px; margin-left:auto; margin-right:auto; }
 @media (max-width:720px){ .detalles__grid{ grid-template-columns:1fr; } }
 .detalle-card{ background:var(--blanco); border:1px solid var(--blush-2); border-radius:var(--radius); padding:28px; box-shadow:0 20px 40px -28px rgba(139,79,98,.35); }
 .detalle-card h3{ font-size:1.3rem; margin-bottom:4px; }
