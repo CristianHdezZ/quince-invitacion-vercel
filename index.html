@@ -3,14 +3,20 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Mis XV Años · Valentina</title>
+<title>Mis XV Años · Linda Hernández</title>
 <meta name="description" content="Invitación digital a mis XV años">
 
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400&family=Alex+Brush&family=Jost:wght@300;400;500;600&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="css/style.css">
+
 <!-- ===================== VISTA PREVIA AL COMPARTIR (WhatsApp, Facebook, Telegram, etc.) ===================== -->
-<!-- og:image y og:url deben ser URLs absolutas y públicas — reemplaza el dominio si cambia -->
+<!-- og:image y og:url deben ser URLs absolutas y públicas — actualiza el dominio si lo cambias -->
 <meta property="og:type" content="website">
-<meta property="og:title" content="Mis XV Años · Valentina">
-<meta property="og:description" content="Con la bendición de Dios y mi familia, te invito a celebrar mis XV años el 15 de noviembre de 2026. ¡Espero contar contigo!">
+<meta property="og:title" content="Mis XV Años · Linda Hernández">
+<meta property="og:description" content="Con la bendición de Dios y mi familia, te invito a celebrar mis XV años el 19 de septiembre de 2026. ¡Espero contar contigo!">
 <meta property="og:image" content="https://quince-invitacion-vercel.vercel.app/assets/og-image.jpg">
 <meta property="og:image:width" content="1200">
 <meta property="og:image:height" content="630">
@@ -18,15 +24,9 @@
 <meta property="og:locale" content="es_ES">
 
 <meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:title" content="Mis XV Años · Valentina">
-<meta name="twitter:description" content="Con la bendición de Dios y mi familia, te invito a celebrar mis XV años el 15 de noviembre de 2026.">
+<meta name="twitter:title" content="Mis XV Años · Linda Hernández">
+<meta name="twitter:description" content="Con la bendición de Dios y mi familia, te invito a celebrar mis XV años el 19 de septiembre de 2026.">
 <meta name="twitter:image" content="https://quince-invitacion-vercel.vercel.app/assets/og-image.jpg">
-
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400&family=Alex+Brush&family=Jost:wght@300;400;500;600&display=swap" rel="stylesheet">
-
-<link rel="stylesheet" href="css/style.css">
 </head>
 <body class="gate-active">
 
@@ -48,7 +48,7 @@
 
   <div class="gate__content">
     <p class="gate__eyebrow">Con la bendición de Dios y mi familia</p>
-    <h1 class="gate__name">Valentina</h1>
+    <h1 class="gate__name">Linda</h1>
     <p class="gate__xv">XV AÑOS</p>
     <p class="gate__quote">
       Hay momentos inolvidables que se atesoran en el corazón para siempre.
@@ -85,7 +85,7 @@
 
 <!-- ===================== BOTÓN DE MÚSICA ===================== -->
 <audio id="bgMusic" loop preload="none">
-  <source src="assets/music/cancion.mp3" type="audio/mpeg">
+  <source src="assets/music/LovethemefromRomeo.mp3" type="audio/mpeg">
 </audio>
 <button id="musicToggle" class="music-toggle" aria-label="Reproducir música" aria-pressed="false">
   <span class="music-icon"><span class="bar"></span><span class="bar"></span><span class="bar"></span></span>
@@ -100,7 +100,6 @@
   <a href="#vestimenta" data-label="Vestimenta"></a>
   <a href="#detalles" data-label="Ubicación"></a>
   <a href="#galeria" data-label="Galería"></a>
-  <a href="#video" data-label="Video"></a>
   <a href="#rsvp" data-label="Confirmar"></a>
 </nav>
 
@@ -109,23 +108,19 @@
   <p class="hero__eyebrow reveal">Tenemos el honor de invitarlos a la celebración de los XV años de nuestra hija</p>
 
   <div class="hero__frame reveal">
-    <img src="assets/gallery/foto1.jpg" alt="Retrato de Valentina">
+    <img src="assets/gallery/image01.jpeg" alt="Retrato de Linda Hernández">
   </div>
 
-  <h1 class="hero__name reveal">Valentina</h1>
+  <h1 class="hero__name reveal">Linda</h1>
+  <p class="hero__apellido reveal">Hernández</p>
   <p class="hero__subtitle reveal">Que se llevará a cabo el día</p>
 
   <div class="hero__badge reveal">
     <span>Sábado</span>
-    <strong>15</strong>
-    <span>Noviembre</span>
+    <strong>19</strong>
+    <span>Septiembre</span>
   </div>
   <p class="hero__year reveal">2026</p>
-
-  <p class="hero__padrinos-label reveal">Padrinos de honor</p>
-  <p class="hero__padrinos reveal">Jorge Luis y Brenda</p>
-
-  <a href="#carta" class="scroll-cue" aria-label="Bajar"><span></span></a>
 </header>
 
 <main>
@@ -141,7 +136,7 @@
         pedacito de mi corazón, hecha con la misma ilusión con la que espero
         abrazarte ese día.
       </p>
-      <p class="carta__firma">Con cariño, Valentina</p>
+      <p class="carta__firma">Con cariño, Linda</p>
     </div>
   </section>
 
@@ -150,7 +145,7 @@
     <div class="section__inner reveal">
       <span class="section__eyebrow">Falta poco</span>
       <h2 class="section__title">La cuenta regresiva ya empezó</h2>
-      <div id="countdown" class="countdown" data-date="2026-11-15T18:00:00">
+      <div id="countdown" class="countdown" data-date="2026-09-19T18:00:00">
         <div class="countdown__item"><span class="countdown__num" id="cd-days">00</span><span class="countdown__label">Días</span></div>
         <div class="countdown__item"><span class="countdown__num" id="cd-hours">00</span><span class="countdown__label">Horas</span></div>
         <div class="countdown__item"><span class="countdown__num" id="cd-mins">00</span><span class="countdown__label">Min</span></div>
@@ -213,25 +208,15 @@
       <span class="section__eyebrow">Ubicación</span>
       <h2 class="section__title">Dónde y cuándo</h2>
 
-      <div class="detalles__grid">
-        <article class="detalle-card">
-          <h3>Ceremonia religiosa</h3>
-          <p class="detalle-card__hora">7:30 p.m.</p>
-          <p>Parroquia Nuestra Señora del Rosario<br>Calle 10 # 45 - 20, Medellín</p>
-          <div class="mapa-wrap">
-            <iframe title="Mapa Parroquia Nuestra Señora del Rosario" src="https://www.google.com/maps?q=Parroquia+Nuestra+Se%C3%B1ora+del+Rosario+Medell%C3%ADn&output=embed" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-          </div>
-          <a class="btn-link" href="https://www.google.com/maps?q=Parroquia+Nuestra+Se%C3%B1ora+del+Rosario+Medell%C3%ADn" target="_blank" rel="noopener">Cómo llegar →</a>
-        </article>
-
+      <div class="detalles__grid detalles__grid--single">
         <article class="detalle-card">
           <h3>Recepción</h3>
           <p class="detalle-card__hora">7:00 p.m.</p>
-          <p>Salón de Eventos Jardín Botánico<br>Carrera 52 # 73 - 30, Medellín</p>
+          <p>Salón de Eventos Imperial Eventos Deluxe<br>Cr 40ªª Nº 48ª -12 Sector UCO Rionegro- Antioquia</p>
           <div class="mapa-wrap">
-            <iframe title="Mapa Salón de Eventos" src="https://www.google.com/maps?q=Jard%C3%ADn+Bot%C3%A1nico+Medell%C3%ADn&output=embed" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            <iframe src="https://www.google.com/maps/embed?pb=!4v1784564524946!6m8!1m7!1sCOvTRbTPuU5mPLvsMMZbUw!2m2!1d6.188724376340286!2d-75.36359884954642!3f325.46288285307287!4f8.27229985678568!5f0.7820865974627469" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="strict-origin-when-cross-origin"></iframe>
           </div>
-          <a class="btn-link" href="https://www.google.com/maps?q=Jard%C3%ADn+Bot%C3%A1nico+Medell%C3%ADn" target="_blank" rel="noopener">Cómo llegar →</a>
+          <a class="btn-link" href="https://www.google.com/maps/place/Imperial+Eventos+Deluxe/@6.1887244,-75.3635988,3a,75y,325.46h,98.27t/data=!3m7!1e1!3m5!1sCOvTRbTPuU5mPLvsMMZbUw!2e0!6shttps:%2F%2Fstreetviewpixels-pa.googleapis.com%2Fv1%2Fthumbnail%3Fcb_client%3Dmaps_sv.tactile%26w%3D900%26h%3D600%26pitch%3D-8.27229985678568%26panoid%3DCOvTRbTPuU5mPLvsMMZbUw%26yaw%3D325.46288285307287!7i16384!8i8192!4m10!1m2!2m1!1simperial+eventos+deluxe+rionegro!3m6!1s0x8e469fbdc4b23857:0x35bf617a5ab5388d!8m2!3d6.1887534!4d-75.363865!15sCiBpbXBlcmlhbCBldmVudG9zIGRlbHV4ZSByaW9uZWdyb5IBFmZ1bmN0aW9uX3Jvb21fZmFjaWxpdHngAQA!16s%2Fg%2F11xs993pyw?entry=ttu&g_ep=EgoyMDI2MDcxNS4wIKXMDSoASAFQAw%3D%3D" target="_blank" rel="noopener">Cómo llegar →</a>
         </article>
       </div>
     </div>
@@ -243,9 +228,9 @@
       <span class="section__eyebrow">Recuerdos</span>
       <h2 class="section__title">Galería de fotos</h2>
       <div class="galeria__grid" id="galeriaGrid">
-        <button class="galeria__item" data-full="assets/gallery/foto1.jpg"><img src="assets/gallery/foto1.jpg" alt="Foto 1" loading="lazy"></button>
-        <button class="galeria__item" data-full="assets/gallery/foto2.jpg"><img src="assets/gallery/foto2.jpg" alt="Foto 2" loading="lazy"></button>
-        <button class="galeria__item" data-full="assets/gallery/foto3.jpg"><img src="assets/gallery/foto3.jpg" alt="Foto 3" loading="lazy"></button>
+        <button class="galeria__item" data-full="assets/gallery/image01.jpeg"><img src="assets/gallery/image01.jpeg" alt="Foto 1" loading="lazy"></button>
+        <button class="galeria__item" data-full="assets/gallery/image02.jpeg"><img src="assets/gallery/image02.jpeg" alt="Foto 2" loading="lazy"></button>
+        <button class="galeria__item" data-full="assets/gallery/image03.jpeg"><img src="assets/gallery/image03.jpeg" alt="Foto 3" loading="lazy"></button>
         <button class="galeria__item" data-full="assets/gallery/foto4.jpg"><img src="assets/gallery/foto4.jpg" alt="Foto 4" loading="lazy"></button>
         <button class="galeria__item" data-full="assets/gallery/foto5.jpg"><img src="assets/gallery/foto5.jpg" alt="Foto 5" loading="lazy"></button>
         <button class="galeria__item" data-full="assets/gallery/foto6.jpg"><img src="assets/gallery/foto6.jpg" alt="Foto 6" loading="lazy"></button>
@@ -258,25 +243,15 @@
     <img src="" alt="" id="lightboxImg">
   </div>
 
-  <!-- ===================== VIDEO ===================== -->
-  <section id="video" class="section video-section">
-    <div class="section__inner reveal">
-      <span class="section__eyebrow">Un momento en movimiento</span>
-      <h2 class="section__title">Mi video de invitación</h2>
-      <div class="video-wrap">
-        <iframe src="https://www.youtube.com/embed/VIDEO_ID" title="Video de invitación" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-      </div>
-    </div>
-  </section>
-
   <!-- ===================== RSVP ===================== -->
   <section id="rsvp" class="section rsvp">
     <div class="section__inner reveal">
       <span class="section__eyebrow">Confirma tu lugar</span>
       <h2 class="section__title">¿Nos acompañas?</h2>
-      <p class="rsvp__sub">Por favor confirma tu asistencia antes del 1 de noviembre.</p>
+      <p class="rsvp__sub">Por favor confirma tu asistencia antes del 1 de septiembre.</p>
 
       <form id="rsvpForm" class="rsvp-form" data-endpoint="/api/rsvp">
+
         <div class="field">
           <label for="nombre">Nombre completo</label>
           <input type="text" id="nombre" name="nombre" required autocomplete="name">
@@ -309,7 +284,7 @@
 <footer class="footer">
   <p class="footer__ornament" aria-hidden="true">✦</p>
   <p>Gracias por ser parte de este capítulo</p>
-  <p class="footer__hashtag">#ValeXV2026</p>
+  <p class="footer__hashtag">#LindaXV2026</p>
 </footer>
 
 <script src="js/script.js"></script>
