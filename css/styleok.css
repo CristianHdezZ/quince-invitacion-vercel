@@ -277,7 +277,7 @@ img{ max-width:100%; display:block; }
 .rsvp-form{ margin-top:34px; text-align:left; background:var(--blanco); border:1px solid var(--blush-2); border-radius:var(--radius); padding:clamp(24px, 5vw, 44px); box-shadow:0 20px 40px -28px rgba(139,79,98,.35); }
 .field{ margin-bottom:20px; }
 .field label,.field legend{ display:block; font-size:.75rem; letter-spacing:.12em; text-transform:uppercase; color:var(--tinta-suave); margin-bottom:8px; padding:0; }
-.field input[type="text"],.field input[type="number"],.field input[type="tel"],.field textarea{
+.field input[type="text"],.field input[type="number"],.field textarea{
   width:100%; border:0; border-bottom:1px solid var(--blush-2); background:transparent;
   font-family:var(--f-body); font-size:1rem; color:var(--tinta); padding:8px 2px; transition:border-color .3s;
 }
